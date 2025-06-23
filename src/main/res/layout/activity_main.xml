@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5C86C7"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/show"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:autoSizeTextType="uniform"
+        android:background="#71B2CA"
+        android:text="Show Message:"
+        android:textSize="34sp"
+        app:backgroundTint="#77aaffff" />
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="match_parent"
+        android:layout_height="623dp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center_vertical"
+        android:text="0"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textIsSelectable="true"
+        android:textSize="96sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/increase_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:autoSizeTextType="uniform"
+        android:keyboardNavigationCluster="true"
+
+        android:text="+"
+        android:textSize="60sp"
+        app:backgroundTint="#77aaffff" />
+
+
+</android.widget.LinearLayout>
